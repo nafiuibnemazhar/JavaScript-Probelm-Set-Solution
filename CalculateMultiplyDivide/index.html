@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caclulate Multiply and Divide</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Caclulate Multiplication and Division of Two Numbers</h1>
+      <div class="form-container">
+        <form>
+          Enter first number: <input type="text" id="firstNumber" /> <br />Enter
+          second number: <input type="text" id="secondNumber" /> <br />
+          <input
+            type="button"
+            class="btn-main"
+            onclick="multiplyBy()"
+            value="Multiply"
+          />
+          <input
+            type="button"
+            class="btn-main"
+            onclick="divideBy()"
+            value="Divide"
+          />
+        </form>
+        <p class="result-text">
+          The result is: <br />
+          <span id="result"></span>
+        </p>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
